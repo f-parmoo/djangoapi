@@ -15,7 +15,7 @@ Start server
 ```
 python manage.py  runserver
 ```
-Insert Data in Person and Car form
+Person and Car forms
 ```
 http://127.0.0.1:8000/admin/personinfo/person/
 http://127.0.0.1:8000/admin/personinfo/car/
@@ -24,8 +24,8 @@ http://127.0.0.1:8000/admin/personinfo/car/
 Hit the RestAPIs
 
 ```
-GET http://127.0.0.1:8000/api/person/
-GET http://127.0.0.1:8000/api/car/
+http://127.0.0.1:8000/api/person/
+http://127.0.0.1:8000/api/car/
 ```
 
 Hit the GraphQL APIs
