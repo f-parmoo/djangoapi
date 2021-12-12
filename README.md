@@ -6,7 +6,10 @@ Install requirements
 ```
 pip install -r requirements.txt
 ```
-
+Create Database in Postgres (name:djangoapi)
+```
+python manage.py  migrate
+```
 Start server
 
 ```
